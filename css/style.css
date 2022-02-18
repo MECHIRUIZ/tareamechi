@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(24, 2, 44);
+}
+
+
+.header{
+    background-color: rgb(247, 240, 232);
+    padding: 0.5em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.header .navbar .divnav a h1{
+    font-size: 50px;
+
+}
+.header ul{
+    background-color: rgb(30, 11, 48);
+    display: flex;
+    justify-content: center;
+}
+.header ul li{
+    margin-left: 5%;
+    list-style-type: none;
+    
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;    
+}
+
+.navbar{
+    width: 100%;
+    padding: 1;
+    display: flex;
+}
+.navbar ul{
+    display:flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar ul li{
+    padding: 1em;
+    display: flex;
+    text-align: center;
+
+}
+.divnav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.divnav img{
+    margin-right: 10%;
+}
+
+#contenedor{
+    width: 90%;
+    height: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.primero{
+    background: whitesmoke;
+    width: 30%;
+    padding: 1%;
+    box-sizing: border-box;
+
+}
+.segundo{
+    background: whitesmoke;
+    width: 30%;
+    padding: 1%;
+    box-sizing: border-box;
+
+}
+.tercero{
+    background:whitesmoke;
+    width: 30%;
+    padding: 1%;
+    box-sizing: border-box;
+
+}
+
+.primero img{
+    width: 90%;
+    height: 90%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.segundo img{
+    width: 90%;
+    height: 90%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.tercero img{
+    width: 90%;
+    height: 90%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.footer{
+    margin-top: 4em;
+    border-top: 5px solid whitesmoke;
+    padding: 2em 3em;
+    background-color: rgb(183, 163, 201);
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data{
+    padding: 2em;
+    color: black;
+    border-radius: 15px;
+}
+
+.footer .data .map a{
+    width: 10%;
+}
